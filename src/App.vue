@@ -24,8 +24,13 @@ export default {
 </script>
 
 <style lang="scss">
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .container {
     max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -184,5 +189,7 @@ export default {
       }
     }
   }
+}
+
 
 </style>
